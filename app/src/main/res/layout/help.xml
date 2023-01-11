@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rG_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/r_help_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشاركة السؤال مع صديق"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            />
+
+        <RadioButton
+            android:id="@+id/r_help_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لمحة عن الإجابة الصحيحة"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+
+            />
+
+        <RadioButton
+            android:id="@+id/r_help_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تخطي هذ السؤال و احتسابه"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+
+            />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
