@@ -550,7 +550,8 @@ class PublicQuestionScreen : AppCompatActivity(){
     private fun getImageUri(inContext: Context, inImage: Bitmap): Uri? {
         val bytes = ByteArrayOutputStream()
         inImage.compress(Bitmap.CompressFormat.PNG, 100, bytes)
-        val path = MediaStore.Images.Media.insertImage(inContext.contentResolver, inImage, "Title", null)
+        val path = MediaStore.Images.Media.insertImage(
+            inContext.contentResolver, inImage, "IMG_" + System.currentTimeMillis(), null)
         return Uri.parse(path)
     }
 
