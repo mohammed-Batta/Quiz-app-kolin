@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_10sdp"
-        android:text="مشرفوا تطبيق Quiz"
+        android:text="مشرف تطبيق Quiz"
         android:textSize="@dimen/_18sdp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/view"
@@ -49,30 +49,6 @@
         app:layout_constraintEnd_toEndOf="@+id/tv_lead_Private"
         app:layout_constraintStart_toStartOf="@+id/tv_lead_Private"
         app:layout_constraintTop_toBottomOf="@+id/tv_lead_Private" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="مجد علاء الزهري"
-        android:layout_margin="@dimen/_8sdp"
-        android:textColor="@color/main"
-        android:textSize="@dimen/_15sdp"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="براء عامر حجاج"
-        android:layout_margin="@dimen/_8sdp"
-        android:textColor="@color/main"
-        android:textSize="@dimen/_15sdp"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -105,8 +81,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
